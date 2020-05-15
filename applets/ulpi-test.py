@@ -77,7 +77,7 @@ class ULPIDiagnostic(Elaboratable):
 
             # Disable the DP/DM pull resistors.
             utmi.dm_pulldown .eq(0),
-            utmi.dm_pulldown .eq(0),
+            utmi.dp_pulldown .eq(0),
             utmi.term_select .eq(0)
         ]
 
